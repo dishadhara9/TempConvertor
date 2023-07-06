@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belanosima', sans-serif; ;
+
+}
+label{
+    color: black;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(3285522.webp);
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    
+}
+
+form{
+    background-color: rgb(255, 215, 255);
+    padding: 80px;
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 5px 10px 6px -6px #150b0b;
+    -moz-box-shadow:  5px 10px 6px -6px #1b1111;
+    box-shadow: 10px 15px 10px 1px #7d4f79;
+
+}
+
+#tempcalc label{
+    font-size: 30px;
+
+}
+#temp{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff{
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+[type="submit"]{
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#resultcontainer{
+    font-size: 35px;
+}
+
+@media screen and  (max-width:600px) {
+
+   
+    form{
+        width: 20%;
+    }
+    #tempcalc label{
+        font-size: 12px;
+    }
+    #temp{
+        height: 20px;
+        width: 50px;
+        font-size: 10px;
+    }
+    #temp_diff{
+        height: 20px;
+        vertical-align: top;
+        
+        font-size: 7.5px;
+    }
+    [type="submit"]{
+        height: 12.5px;
+        
+        width: 50px;
+        font-size: 7.5px;
+
+    }
+    
+    
+}
